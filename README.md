@@ -26,7 +26,7 @@ Source: [Basketball-Reference.com](www.basketball-reference.com)
 4. Feature Extraction with Principal Component Analysis
 5. Data Visualization with Tableau
 
-### Results
+### Player Types
 
 - Floor General
 - Combo Guard
