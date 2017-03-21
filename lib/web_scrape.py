@@ -177,9 +177,21 @@ def get_advanced(url):
     del advanced_list[19]
     return advanced_list
 
+########################################################
+########################################################
+#################### Columns ###########################
+########################################################
+########################################################
+
+
+def get_100_cols():
+    points_poss_cols = ['Player_ID', "GAMES","GS","MP_","FG_100","FGA_100","FG%_100","3P_100","3PA_100","3P%_100","2P_100","2PA_100",
+                        "2P%_100","FT_100","FTA_100","FT%_100","ORB_100","DRB_100","TRB_100","AST_100","STL_100","BLK_100",
+                        "TOV_100","PF_100","PTS_100","ORtg","DRtg"]
+    return points_poss_cols
 
 def get_shoot_cols():
-    shooting_cols = ['Player_ID1', 'Games', 'Min_Played', 'FG%', 'AVG_DIST_FGA', '%FGA_2P', '%FGA_0-3ft',
+    shooting_cols = ['Player_ID1','Games', 'Min_Played', 'FG%', 'AVG_DIST_FGA', '%FGA_2P', '%FGA_0-3ft',
                      '%FGA_3-10ft','%FGA_10-16ft', '%FGA_16ft<3', '%FGA_3P', '2P%',
                      '0-3_FG%', '3-10_FG%', '10-16_FG%', '16<3_FG%', '3P%', '%ASTd_2P',
                      '%FGA_DUNK', 'DUNKS', '%ASTd_3P', '%_CORNER3PA', '3P%_CORNER3',
@@ -187,19 +199,13 @@ def get_shoot_cols():
     return shooting_cols
 
 def get_adv_cols():
-    advanced_cols = ['Player_ID1','Games_', 'Minutes_Played', 'PER', 'TS%', '3PAr', 'FTr', 'ORB%', 'DRB%', 'TRB%',
+    advanced_cols = ['Player_ID2', 'Games_', 'Minutes_Played', 'PER', 'TS%', '3PAr', 'FTr', 'ORB%', 'DRB%', 'TRB%',
                      'AST%', 'STL%', 'BLK%', 'TOV%', 'USG%', 'OWS', 'DWS', 'WS',
                      'WS/48', 'OBPM', 'DPM', 'BPM', 'VORP']
     return advanced_cols
 
-def get_100_cols():
-    points_poss_cols = ["Player_ID2", "GAMES","GS","MP_","FG_100","FGA_100","FG%_100","3P_100","3PA_100","3P%_100","2P_100","2PA_100",
-                        "2P%_100","FT_100","FTA_100","FT%_100","ORB_100","DRB_100","TRB_100","AST_100","STL_100","BLK_100",
-                        "TOV_100","PF_100","PTS_100","ORtg","DRtg"]
-    return points_poss_cols
-
 def get_pergame_cols():
-    per_game_cols = ['Player_ID', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
+    per_game_cols = ['Player_ID3', 'G', 'GS', 'MP', 'FG', 'FGA', 'FG%', '3P', '3PA', '3P%',
                      '2P', '2PA', '2P%', 'eFG%', 'FT', 'FTA', 'FT%', 'ORB', 'DRB',
                      'TRB', 'AST', 'STL', 'BLK', 'TOV', 'PF', 'PTS']
 
