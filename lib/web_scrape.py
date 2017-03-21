@@ -27,7 +27,7 @@ def get_per_game(url):
     # get table as csv (for excel)
     WebDriverWait(driver, 10).until(
         EC.element_to_be_clickable(
-            (By.XPATH, """//*[@id="all_per_game"]/div[1]/div/ul/li[1]/div/ul/li[3]/button"""))).click()
+            (By.XPATH, """//*[@id="all_per_game"]/div[1]/div/ul/li[1]/div/ul/li[4]/button"""))).click()
 
     # table
     WebDriverWait(driver, 10).until(
@@ -66,7 +66,7 @@ def get_100(url):
     driver.find_element_by_xpath("""//*[@id="all_per_poss"]/div[1]/div/ul/li[1]/span""").click()
 
     WebDriverWait(driver, 30).until(EC.element_to_be_clickable(
-        (By.XPATH, """//*[@id="all_per_poss"]/div[1]/div/ul/li[1]/div/ul/li[3]/button"""))).click()
+        (By.XPATH, """//*[@id="all_per_poss"]/div[1]/div/ul/li[1]/div/ul/li[4]/button"""))).click()
 
     WebDriverWait(driver, 30).until(EC.element_to_be_clickable(
         (By.CLASS_NAME, """table_outer_container""")))
@@ -107,7 +107,7 @@ def get_shooting(url):
     # get table as csv (for excel)
     WebDriverWait(driver, 30).until(
         EC.element_to_be_clickable(
-            (By.XPATH, """//*[@id="all_shooting"]/div[1]/div/ul/li[2]/div/ul/li[3]/button"""))).click()
+            (By.XPATH, """//*[@id="all_shooting"]/div[1]/div/ul/li[2]/div/ul/li[4]/button"""))).click()
 
     # table
     WebDriverWait(driver, 30).until(
@@ -148,7 +148,7 @@ def get_advanced(url):
     driver.find_element_by_xpath("""//*[@id="all_advanced"]/div[1]/div/ul/li[1]/span""").click()
 
     WebDriverWait(driver, 30).until(EC.element_to_be_clickable(
-            (By.XPATH, """//*[@id="all_advanced"]/div[1]/div/ul/li[1]/div/ul/li[3]/button"""))).click()
+            (By.XPATH, """//*[@id="all_advanced"]/div[1]/div/ul/li[1]/div/ul/li[4]/button"""))).click()
 
     WebDriverWait(driver, 30).until(EC.element_to_be_clickable(
             (By.CLASS_NAME, """table_outer_container""")))
