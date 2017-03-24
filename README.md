@@ -5,7 +5,7 @@
 
 #### By Alex Cheng
 
-For more information, please check out the Medium article at [Fastbreak Data](https://fastbreakdata.com/classifying-the-modern-nba-player-with-machine-learning-539da03bb824#.dutxn9ia9)
+For more information, please check out the Medium article at [Fastbreak Data](https://fastbreakdata.com/classifying-the-modern-nba-player-with-machine-learning-539da03bb824#.dutxn9ia9). 
 
 ### Description
 
