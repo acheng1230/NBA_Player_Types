@@ -39,6 +39,12 @@ Source: [Basketball-Reference.com](www.basketball-reference.com)
 
 ### Implementation
 
-![Fastbreak Data](implementation/mockup.png)
+One suggestion for implementing the results of this project would be in player scouting. The images below are mock-ups for how a mobile-view application would look, using player types. 
+
+---
+
+![Phone Mockup Part 1](implementation/phone_mockup1.png)
+![Phone Mockup Part 2](implementation/phone_mockup2.png)
+
 
 
