@@ -39,7 +39,9 @@ Source: [Basketball-Reference.com](www.basketball-reference.com)
 
 ### Implementation
 
-One suggestion for implementing the results of this project would be in player scouting. The images below are mock-ups for how a mobile-view application would look, using player types. 
+One suggestion for implementing the results of this project would be in player scouting. Each team already understands the strengths and weaknesses of their own players, but scouting opposing players in the midst of a season becomes a challenge. 
+
+With player types, teams can quickly learn the characteristics of opposing players and paired with shot charts can understand which spots on the court opposing players are most effective. The images below are mock-ups of how player types can be used for scouting.
 
 ---
 
