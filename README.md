@@ -1,7 +1,15 @@
+______
+# UPDATE (3/3/2021)
+Please be aware this is a deprecated project, containing code that may not work without necessary changes. Please use this repository as inspiration or a launchpad for your own code and project. 
+__________
+
 ![Fastbreak Data](https://cdn-images-1.medium.com/max/313/1*gEWgrI7ceDHQLVaPdGbP4g@2x.png)
 
 # The 8 Types of NBA Players
 ## Using machine learning to classify NBA players
+
+
+
 
 #### By Alex Cheng
 
